@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/38c0c7a5ae.js" crossorigin="anonymous"></script>
+
+    <title>Treloo</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <a href="#" class="header__logo">Treloo</a>
+
+          <div class="header__menu">
+            <nav class="menu__body" id="menu">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="#" class="menu__link">Review</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Tips</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Alerts</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="header_button">
+            <a href="#">Blog</a>
+          </div>
+
+          <div class="hamb">
+            <div class="hamb__field" id="hamb">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+
+        </div>
+      </header>
+      <div class="popup" id="popup"></div>
+      
+      <main>
+        <section class="cover-page">
+          <div class="cover-page__container">
+            <div class="cover-page__content">
+              <h1 class="cover-page__title">Discover Your Life, Travel Where You Want</h1>
+              <p class="cover-page__text">Would you explore nature paradise in the world,
+                let’s find the best destination in world with us.</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="search-ticket__position">
+        <section class="search-ticket">
+          <div class="search-ticket__container">
+            <div class="search-ticket__option">
+              <button type="button" name="Flight"><i class="fas fa-plane-departure"></i> Flight</button>
+              <button type="button" name="Hotel"><i class="fas fa-hotel"></i> Hotel</button>
+            </div>
+            <div class="search-ticket__info">
+
+              <div class="going-to">
+                <div class="going-to__left-text">
+                  <p class="title">Living From</p>
+                  <p class="under-title">Dubai</p>
+                </div>
+                <div class="going-to__plane-icon">
+                  <i class="fas fa-plane"></i>
+                </div>
+                <div class="going-to__right-text">
+                  <p class="title">Going to</p>
+                  <p class="under-title">New York</p>
+                </div>
+              </div>
+
+              <div class="return">
+                <div class="return__left-text">
+                  <p class="title">Leave <i class="fas fa-plane"></i></p>
+                  <p class="under-title">23 Jan, Sat</p>
+                </div>
+                <div class="return__cal-icon">
+                  <i class="far fa-calendar-alt"></i>
+                </div>
+                <div class="return__right-text">
+                  <p class="title">Return <i class="fas fa-plane" id="flipped-plane"></i></p>
+                  <p class="under-title">14 Jan, Thu</p>
+                </div>
+              </div>
+
+              <div class="search-icon">
+                <i class="fas fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="special-offer">
+        <div class="special-offer__container">
+          <div class="section__title">
+            Special Upcoming Offers
+          </div>
+          <div class="section__slider">
+            <button type="button" name="button">Team</button>
+            <button type="button" name="button">Couple</button>
+            <button type="button" name="button">Family</button>
+          </div>
+          <div class="special-offer__booking">
+
+            <div class="booking-place">
+              <div class="place__img-date">
+                <img src="img/place-1 copy.png" alt="Loga Sea">
+                <p>14 FEB 2022</p>
+              </div>
+              <div class="place__text">
+                <div class="place__descr">
+                  <p class="relax-category pink">Relax</p>
+                  <p>3 Days, 3 Nights</p>
+                </div>
+                <div class="place__title">
+                  <p>Loga Sea</p>
+                </div>
+                <div class="place__book">
+                  <div class="place__price">
+                    <p id="price">700$</p>
+                    <p>/Person</p>
+                  </div>
+                  <button type="button" name="Book">Book Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="booking-place">
+              <div class="place__img-date">
+                <img src="img/place-2 copy.png" alt="Loga Sea">
+                <p>18 JUN 2022</p>
+              </div>
+              <div class="place__text">
+                <div class="place__descr">
+                  <p class="relax-category blue">Adventure</p>
+                  <p>4 Days, 3 Nights</p>
+                </div>
+                <div class="place__title">
+                  <p>Ansgar Scheffold</p>
+                </div>
+                <div class="place__book">
+                  <div class="place__price">
+                    <p id="price">400$</p>
+                    <p>/Person</p>
+                  </div>
+                  <button type="button" name="Book">Book Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="booking-place">
+              <div class="place__img-date">
+                <img src="img/place-3 copy.png" alt="Loga Sea">
+                <p>22 DEC 2022</p>
+              </div>
+              <div class="place__text">
+                <div class="place__descr">
+                  <p class="relax-category pink">Relax</p>
+                  <p>7 Days, 6 Nights</p>
+                </div>
+                <div class="place__title">
+                  <p>Lona X</p>
+                </div>
+                <div class="place__book">
+                  <div class="place__price">
+                    <p id="price">340$</p>
+                    <p>/Person</p>
+                  </div>
+                  <button type="button" name="Book">Book Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="travel">
+        <div class="travel__container">
+          <div class="travel__left">
+            <div class="travel__img">
+              <img src="img/section-3-img copy.png" alt="Mountain">
+              <div class="numbers first">
+                <p>300+</p>
+                <p>DESTINATIONS</p>
+              </div>
+              <div class="numbers second">
+                <p>5000+</p>
+                <p>TOURISTS</p>
+              </div>
+              <div class="numbers third">
+                <p>150+</p>
+                <p>HOTELS</p>
+              </div>
+            </div>
+          </div>
+          <div class="travel__right">
+            <div class="travel__title">
+              <p>Travel Any Corner of The World With Us</p>
+            </div>
+            <div class="travel__par one">
+              <p>Would you explore nature paradise in the world, let’s find the best destination in world with us,
+                Would you explore nature paradise in the world, let’s find the best destination in world with us.
+                Would you explore nature paradise in the world, let’s find the best destination in world with us.</p>
+            </div>
+            <div class="travel__par two">
+              <p>Would you explore nature paradise in the world, let’s find the best destination in world with us.</p>
+            </div>
+            <div class="travel__button">
+              <button type="button" name="button">Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="recommendations">
+        <div class="recommendations__container">
+          <div class="section__title">
+            Recommended Destination
+          </div>
+          <div class="section__slider second">
+            <button type="button" name="button">Popular</button>
+            <button type="button" name="button">Adventure</button>
+            <button type="button" name="button">Beath</button>
+          </div>
+          <div class="mountain">
+            <div class="mountain__row">
+              <div class="mountain__box">
+                <div class="mountain__img">
+                  <img src="img/mountain-1 copy.png" alt="Kina Mountain">
+                  <div class="rating">
+                    <p><i class="fas fa-star"></i> 3.4</p>
+                  </div>
+                </div>
+                <div class="mountain__text">
+                  <div class="box__title">
+                    Kina Mountain
+                  </div>
+                  <p><i class="fas fa-map-marker-alt"></i> Cambodia</p>
+                </div>
+              </div>
+
+              <div class="mountain__box">
+                <div class="mountain__img">
+                  <img src="img/mountain-2 copy.png" alt="Kina Mountain">
+                  <div class="rating">
+                    <p><i class="fas fa-star"></i> 4.5</p>
+                  </div>
+                </div>
+                <div class="mountain__text">
+                  <div class="box__title">
+                    Kina Mountain
+                  </div>
+                  <p><i class="fas fa-map-marker-alt"></i> Cambodia</p>
+                </div>
+              </div>
+            </div>
+            <div class="mountain__row">
+              <div class="mountain__box">
+                <div class="mountain__img">
+                  <img src="img/mountain-3 copy.png" alt="Kina Mountain">
+                  <div class="rating">
+                    <p><i class="fas fa-star"></i> 4.2</p>
+                  </div>
+                </div>
+                <div class="mountain__text">
+                  <div class="box__title">
+                    Kina Mountain
+                  </div>
+                  <p><i class="fas fa-map-marker-alt"></i> Cambodia</p>
+                </div>
+              </div>
+
+              <div class="mountain__box">
+                <div class="mountain__img">
+                  <img src="img/mountain-4 copy.png" alt="Kina Mountain">
+                  <div class="rating">
+                    <p><i class="fas fa-star"></i> 3.5</p>
+                  </div>
+                </div>
+                <div class="mountain__text">
+                  <div class="box__title">
+                    Kina Mountain
+                  </div>
+                  <p><i class="fas fa-map-marker-alt"></i> Cambodia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quotes">
+        <div class="quotes__container">
+          <div class="quotes__row">
+
+            <div class="quotes__box">
+              <div class="quotes_par">
+                Our trip to Morocco was truly a once in a lifetime experience and we are so grateful to
+                  everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.
+              </div>
+              <div class="quotes__author">
+                -Vand D
+              </div>
+              <div class="quotes__motto">
+                Happy Treloo
+              </div>
+                <div class="quotes__img">
+                  <img src="img/profile-photo-1 copy.png" alt="">
+                  <div class="rating second">
+                    <p><i class="fas fa-star"></i> 4.5</p>
+                  </div>
+                </div>
+              <img src="img/image copy.png" alt="">
+            </div>
+
+            <div class="quotes__box">
+              <div class="quotes_par">
+                Our trip to Morocco was truly a once in a lifetime experience and we are so grateful to
+                  everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.
+              </div>
+              <div class="quotes__author">
+                -Tru Vio
+              </div>
+              <div class="quotes__motto">
+                Happy Treloo
+              </div>
+              <div class="quotes__img">
+
+                  <img src="img/profile-photo-2 copy.png" alt="">
+                  <div class="rating second">
+                    <p><i class="fas fa-star"></i> 4.9</p>
+                  </div>
+
+              </div>
+              <img src="img/image copy.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="discount">
+        <div class="discount__container">
+          <div class="discount__img">
+            <img src="img/section-6-img copy.png" alt="">
+              <div class="discount__text">
+                <p>Don’t Miss The 50% Discount if You register Today</p>
+                <button type="button" name="button">Register Today</button>
+              </div>
+            </div>
+        </div>
+
+      </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="rights">
+            © 2022 Treloo LLC - All right reserved.
+          </div>
+          <div class="footer__nav">
+            <a href="#">Review</a>
+            <a href="#">Tips</a>
+            <a href="#">Alerts</a>
+            <a href="#">Blog</a>
+          </div>
+
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
