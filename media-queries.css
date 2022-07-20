@@ -1,0 +1,923 @@
+/* PC */
+@media (max-width: 1195px) {
+  [class*="__container"] {
+    max-width: 970px;
+  }
+  /* ############## section "cover-page" ############## */
+  .cover-page__content {
+    padding: 310px 0 0 0;
+  }
+  .cover-page__title {
+    font-size: 60px;
+    width: 90%;
+  }
+  .cover-page__text {
+    padding: 30px 0 0 0;
+  }
+  /* ############## section "search-ticket" ############## */
+  .search-ticket__option button {
+    padding: 23px 28px;
+  }
+  .search-ticket__info {
+    padding: 50px 15px;
+  }
+  .return {
+    margin: 0 25px 0 25px;
+  }
+  .going-to__left-text, .going-to__plane-icon, .return__left-text, .return__cal-icon {
+    margin-right: 20px;
+  }
+  .title {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .under-title {
+    font-size: 22px;
+  }
+  .search-icon {
+    padding: 46px 55px;
+    font-size: 45px;
+  }
+  /* ############## section special-offer ############## */
+
+  .section__slider {
+    margin: 80px 0 60px 0;
+  }
+  .place__img-date img {
+    max-width: 85%;
+    margin: 15px 0px 15px 15px;
+    padding-right: 15px;
+  }
+  .place__img-date p {
+    font-size: 16px;
+  }
+  .place__text {
+    padding-left: 30px;
+  }
+  .place__descr {
+    padding: 0 0 30px 0;
+  }
+  .place__title {
+    font-size: 22px;
+  }
+  #price {
+    font-size: 22px;
+  }
+  .place__book button {
+    padding: 13px 15px;
+  }
+
+  /* ############## section travel ############## */
+  .travel {
+    padding: 230px 0 0 0;
+  }
+  .travel__img img {
+    max-width: 430px;
+  }
+  .numbers {
+    padding: 20px 23px;
+  }
+  .numbers p:first-of-type {
+    font-size: 32px;
+  }
+  .numbers p:last-of-type {
+    font-size: 16px;
+  }
+  .travel__title p {
+    font-size: 36px;
+  }
+  .travel__par {
+    font-size: 18px;
+    line-height: 190%;
+  }
+  .travel__par.two {
+    padding: 15px 0 30px 0;
+  }
+  .travel__button button{
+    font-size: 18px;
+    padding: 18px 29px;
+  }
+
+  /* ############## section recommendations ############## */
+  .recommendations {
+    padding: 220px 0 0 0;
+  }
+  .mountain {
+    padding: 40px 0 0 0;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mountain__row {
+    display: flex;
+    max-width: 90%;
+  }
+  .mountain__img {
+    padding: 15px;
+  }
+  .rating {
+    top: 30px;
+    right: 30px;
+  }
+  .rating p {
+    font-size: 18px;
+  }
+  .mountain__text p {
+    padding:  0 0 20px 0;
+  }
+
+  /* ############ section quotes ############# */
+  .quotes {
+    padding: 220px 0 90px 0;
+  }
+  .quotes__box > img {
+    max-width: 23%;
+    top: 50px;
+    left: 175px;
+  }
+  .quotes_par {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 38px;
+  }
+  .quotes__author {
+    font-size: 18px;
+  }
+  .quotes__motto {
+    font-size: 18px;
+  }
+  .quotes__img {
+    bottom: -55px;
+    left: 122px;
+  }
+  .quotes__img img {
+    max-width: 50%;
+    padding: 0 0 10px 0;
+  }
+  .rating.second {
+    top: 15px;
+    right: 35px;
+  }
+  .rating.second p {
+    font-size: 12px;
+  }
+
+  /* ######### section discount ########## */
+  .discount__text {
+    top: 95px;
+  }
+  .discount__text p {
+    font-size: 44px;
+    padding: 0 0 25px 0;
+  }
+  .discount__text button {
+    padding: 20px 30px;
+    font-size: 19px;
+  }
+}
+/* TEBLET */
+@media (max-width: 991.98px) {
+  [class*="__container"] {
+    max-width: 760px;
+  }
+
+  /* ############## header ############## */
+  .header__logo {
+    font-size: 44px;
+  }
+  .menu__item {
+    margin-right: 40px;
+  }
+  .header_button a {
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 18px 43px;
+  }
+
+  /* ############## section "cover-page" ############## */
+  .cover-page__content {
+    padding: 340px 0 0 0;
+  }
+  .cover-page__title {
+    font-size: 56px;
+    width: 100%;
+  }
+  .cover-page__text {
+    padding: 30px 0 0 0;
+    font-size: 22px;
+  }
+
+  /* ############## section "search-ticket" ############## */
+  .search-ticket__position {
+    min-height: 650px;
+  }
+  .search-ticket {
+    bottom: 110px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .search-ticket__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-ticket__option button {
+    padding: 23px 28px;
+    font-size: 22px;
+  }
+  .search-ticket__info {
+    padding: 50px 0 50px 0;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    min-width: 65%;
+  }
+  .return {
+    margin: 20px 25px 20px 25px;
+  }
+  .going-to__left-text, .going-to__plane-icon, .return__left-text, .return__cal-icon {
+    margin-right: 25px;
+  }
+  .going-to {
+    padding: 48px 56px;
+  }
+  .title {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .under-title {
+    font-size: 22px;
+  }
+  .search-icon {
+    padding: 15px 85px;
+    font-size: 34px;
+    border-radius: 45px;
+  }
+
+  /* ############## section special-offer ############## */
+  .special-offer__booking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section__slider {
+    margin: 50px 0 80px 0;
+  }
+  .place__img-date {
+    justify-content: center;
+  }
+  .place__img-date img {
+    max-width: 70%;
+    margin: 25px 20px 30px 0;
+    padding-right: 0px;
+  }
+  .place__img-date p {
+    font-size: 20px;
+    letter-spacing: 0.4em;
+  }
+  .place__text {
+    padding-left: 40px;
+  }
+  .place__descr {
+    padding: 0 0 30px 0;
+  }
+  .relax-category {
+    font-size: 14px;
+    margin-right: 25px;
+  }
+  .relax-category.pink, .relax-category.blue {
+    font-size: 14px;
+  }
+  .place__descr p{
+    font-size: 16px;
+  }
+  .place__title {
+    font-size: 26px;
+    padding: 0 0 16px 0;
+  }
+  .place__price p {
+    font-size: 18px;
+  }
+  #price {
+    font-size: 22px;
+  }
+  .place__book button {
+    font-size: 20px;
+    padding: 14px 19px;
+    border-radius: 15px;
+    margin: 0 40px 0 0;
+  }
+  .place__book {
+    padding: 0 0 30px 0;
+  }
+  .booking-place {
+    margin: 28px;
+  }
+
+  /* ############## section travel ############## */
+  .travel__container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .travel__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 100px 0;
+  }
+  .travel__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .travel__img img {
+    max-width: 70%;
+  }
+  .numbers {
+    padding: 24px 27px;
+  }
+  .numbers.first {
+    top: 66px;
+    right: 0px;
+  }
+  .numbers.second {
+    bottom: 303px;
+    left: 0px;
+  }
+  .numbers.third {
+    bottom: 110px;
+    right: 20px;
+  }
+  .numbers p:first-of-type {
+    font-size: 36px;
+  }
+  .numbers p:last-of-type {
+    font-size: 20px;
+  }
+  .travel__title p {
+    font-size: 40px;
+    text-align: center;
+  }
+  .travel__par {
+    font-size: 19px;
+    text-align: center;
+  }
+  .travel__button button{
+    padding: 12px 39px;
+  }
+
+  /* ############## section recommendations ############## */
+  .mountain__row {
+    display: flex;
+    max-width: 100%;
+  }
+  .section__title {
+    font-size: 44px;
+  }
+
+  /* ############ section quotes ############# */
+  .quotes__row {
+    display: flex;
+    flex-direction: column;
+  }
+  .quotes {
+    padding: 220px 0 0 0;
+  }
+  .quotes__box {
+    padding: 78px 47px 70px 47px;
+    margin: 0px 0 90px 0;
+  }
+  .quotes__box:last-of-type {
+    margin: 0px 0 0px 0;
+  }
+  .quotes__box > img {
+    max-width: 15%;
+    top: 46px;
+    left: 300px;
+  }
+  .quotes_par {
+    font-weight: 500;
+  }
+  .quotes__img {
+    bottom: -48px;
+    left: 256px;
+  }
+  .quotes__img img {
+    max-width: 45%;
+    padding: 0 0 10px 0;
+  }
+  .rating.second {
+    top: 10px;
+    right: 35px;
+  }
+
+  /* ######### section discount ########## */
+  .discount__text {
+    top: 70px;
+  }
+  .discount__text p {
+    font-size: 35px;
+    padding: 0 0 25px 0;
+    line-height: 60px;
+  }
+  .discount__text button {
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 20px;
+  }
+
+  /* ######### footer ########## */
+  .rights {
+    font-size: 17px;
+  }
+  .footer__nav a {
+    font-size: 21px;
+    margin: 0px 10px;
+  }
+}
+/* MOBILE */
+@media (max-width: 767.98px) {
+  [class*="__container"] {
+    max-width: none;
+  }
+
+  /* ############## header ############## */
+  .header__logo {
+    font-size: 44px;
+    margin-left: 30px;
+  }
+  .menu__item {
+    margin-right: 40px;
+  }
+  .header_button a {
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 18px 43px;
+  }
+
+  /*  burger menu  */
+  .header__menu, .header_button {
+    display: none;
+  }
+  .hamb {
+    display: flex;
+    align-items: center;
+  }
+  .hamb__field {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .bar {
+    display: block;
+    width: 40px;
+    height: 4px;
+    margin: 6px auto;
+    background-color: #FFF;
+    transition: 0.2s;
+  }
+  .popup {
+    position: fixed;
+    top: 0px;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #24404f;
+    z-index: 8;
+    display: flex;
+    transition: 0.3s;
+  }
+  .popup.open {
+    left: 0;
+  }
+  .popup .menu__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 210px;
+    overflow: auto;
+  }
+  .popup .menu__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .popup .menu__item {
+    margin-bottom: 25px;
+  }
+  .popup .menu__link {
+    font-size: 65px;
+    margin-left: 250px;
+    font-weight: 300;
+  }
+  .hamb__field.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamb__field.active .bar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+  .hamb__field.active .bar:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+  body.nonscroll {
+    overflow: hidden;
+  }
+  /* ############## section "cover-page" ############## */
+  .cover-page__content {
+    padding: 340px 0 0 0;
+  }
+  .cover-page__title {
+    font-size: 44px;
+    line-height: 90px;
+    width: 80%;
+  }
+  .cover-page__text {
+    padding: 30px 0 0 0;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  /* ############## section special-offer ############## */
+  .section__title {
+    font-size: 40px;
+  }
+  .section__slider button {
+    font-size: 16px;
+  }
+  .place__book button {
+    font-size: 14px;
+    padding: 13px 16px;
+  }
+  .place__title {
+    font-size: 22px;
+  }
+  .place__img-date p {
+    font-size: 18px;
+  }
+  .booking-place {
+    margin: 18px;
+    max-width: 60%;
+  }
+  /* ############## section travel ############## */
+  .travel__img img {
+    max-width: 60%;
+  }
+  .numbers.first {
+    top: 66px;
+    right: 30px;
+  }
+  .numbers.second {
+    bottom: 303px;
+    left: 40px;
+  }
+  .numbers.third {
+    bottom: 90px;
+    right: 60px;
+  }
+  .numbers p:first-of-type {
+    font-size: 30px;
+  }
+  .numbers p:last-of-type {
+    font-size: 16px;
+  }
+  .travel__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .travel__title p {
+    font-size: 38px;
+    max-width: 80%;
+  }
+  .travel__par {
+    font-size: 19px;
+    max-width: 85%;
+  }
+  .travel__button button{
+    padding: 12px 39px;
+  }
+  /* ############## section recommendations ############## */
+  .mountain__row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section__title {
+    font-size: 38px;
+  }
+  .mountain__box {
+    width: 70%;
+  }
+  /* ############ section quotes ############# */
+  .quotes__row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .quotes__box {
+    width: 75%;
+  }
+  .quotes__box > img {
+    max-width: 19%;
+    top: 46px;
+    left: 215px;
+  }
+  .quotes_par {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 38px;
+  }
+  .quotes__img {
+    bottom: -48px;
+    left: 165px;
+  }
+  /* ######### section discount ########## */
+  .discount__text {
+    top: 45px;
+  }
+  .discount__text p {
+    font-size: 30px;
+    padding: 0 0 25px 0;
+    line-height: 57px;
+    min-width: 90%;
+  }
+  .discount__text button {
+    padding: 13px 25px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 20px;
+  }
+  /* ######### footer ########## */
+
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rights {
+    font-size: 16px;
+  }
+  .footer__nav {
+    margin-top: 15px;
+  }
+  .footer__nav a {
+    font-size: 18px;
+    margin: 0px 6px;
+  }
+}
+/* MOBILE SMALL*/
+@media (max-width: 576px) {
+  [class*="__container"] {
+    max-width: none;
+  }
+  /* ############## header ############## */
+  .header__logo {
+    font-size: 35px;
+    margin-left: 20px;
+  }
+  .menu__item {
+    margin-right: 0px;
+  }
+  /*  burger menu  */
+  .popup .menu__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    margin: auto;
+  }
+  .popup .menu__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .popup .menu__item {
+    margin-bottom: 23px;
+  }
+  .popup .menu__link {
+    font-size: 44px;
+    margin: auto;
+    font-weight: 300;
+  }
+  /* ############## section "cover-page" ############## */
+  .cover-page__content {
+    padding: 300px 0 0 0;
+  }
+  .cover-page__title {
+    font-size: 30px;
+    line-height: 60px;
+    min-width: 100%;
+  }
+  .cover-page__text {
+    padding: 30px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  /* ############## section "search-ticket" ############## */
+  .search-ticket__position {
+    min-height: 490px;
+  }
+  .search-ticket {
+    bottom: 170px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .search-ticket__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-ticket__option button {
+    padding: 16px 28px;
+    font-size: 15px;
+  }
+  .search-ticket__info {
+    padding: 50px 0 50px 0;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 48px;
+    min-width: 100%;
+  }
+  .return {
+    margin: 20px 20px;
+    padding: 34px 30px;
+  }
+  .going-to__left-text, .going-to__plane-icon, .return__left-text, .return__cal-icon {
+    margin-right: 20px;
+  }
+  .going-to {
+    padding: 35px 38px;
+  }
+  .title {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .under-title {
+    font-size: 17px;
+  }
+  .search-icon {
+    padding: 12px 85px;
+    font-size: 24px;
+    border-radius: 45px;
+  }
+  /* ############## section special-offer ############## */
+  .section__title {
+    font-size: 32px;
+    text-align: center;
+  }
+  .section__slider {
+    margin: 50px 0 40px 0;
+  }
+  .section__slider button {
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 10px 5px;
+  }
+  .place__text {
+    padding-left: 25px;
+  }
+  .place__descr {
+    padding: 0 0 20px 0;
+  }
+  .place__descr p{
+    font-size: 14px;
+  }
+  .relax-category {
+    font-size: 12px;
+    margin-right: 18px;
+  }
+  .relax-category.pink, .relax-category.blue {
+    font-size: 12px;
+  }
+  .place__title {
+    font-size: 20px;
+  }
+  .place__book button {
+    font-size: 14px;
+    padding: 13px 16px;
+    margin: 0 20px 0 0;
+  }
+  .place__img-date img {
+    max-width: 75%;
+    margin: 22px 20px 30px 0;
+  }
+  .place__img-date p {
+    font-size: 16px;
+  }
+  .place__price p {
+    font-size: 16px;
+  }
+  #price {
+    font-size: 20px;
+  }
+  .booking-place {
+    margin: 18px;
+    max-width: 100%;
+  }
+  /* ############## section travel ############## */
+  .travel {
+    padding: 120px 0 0 0;
+  }
+  .travel__img img {
+    max-width: 90%;
+  }
+  .numbers.first {
+    top: 18px;
+    right: 28px;
+  }
+  .numbers.second {
+    bottom: 303px;
+    left: 28px;
+  }
+  .numbers.third {
+    bottom: 25px;
+    right: 40px;
+  }
+  .numbers p:first-of-type {
+    font-size: 24px;
+  }
+  .numbers p:last-of-type {
+    font-size: 15px;
+  }
+  .travel__title p {
+    font-size: 30px;
+    max-width: 100%;
+    line-height: 58px;
+  }
+  .travel__par {
+    font-size: 15px;
+    max-width: 85%;
+  }
+  .travel__button button{
+    padding: 12px 39px;
+  }
+  /* ############## section recommendations ############## */
+  .recommendations {
+    padding: 160px 0 0 0;
+  }
+  .section__slider.second {
+    margin: 40px 0 0 0;
+  }
+  .mountain__box {
+    min-width: 80%;
+  }
+  /* ############ section quotes ############# */
+  .quotes {
+    padding: 150px 0 20px 0;
+  }
+  .quotes__box {
+    width: 95%;
+  }
+  .quotes__box > img {
+    max-width: 19%;
+    top: 26px;
+    left: 130px;
+  }
+  .quotes_par {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .quotes__motto {
+    font-size: 16px;
+  }
+  .quotes__img {
+    bottom: -48px;
+    left: 65px;
+  }
+  /* ######### section discount ########## */
+  .discount__text {
+    top: 40px;
+  }
+  .discount__text p {
+    font-size: 20px;
+    padding: 0 0 25px 0;
+    line-height: 45px;
+    min-width: 89%;
+  }
+  .discount__text button {
+    padding: 13px 23px;
+    font-size: 16px;
+    border-radius: 18px;
+  }
+  .discount__img img {
+    aspect-ratio: 2 / 1;
+  }
+  /* ######### footer ########## */
+  .rights {
+    font-size: 14px;
+    margin-right: 15px;
+  }
+  .footer__nav a {
+    font-size: 14px;
+    margin: 5px 5px;
+  }
+}
